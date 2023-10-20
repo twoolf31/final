@@ -1,0 +1,432 @@
+/* DEFAULT LAYOUT */
+
+* {
+	box-sizing: border-box;
+}
+
+a {
+	color: #dc97e1;
+}
+
+a:hover, a:active {
+	color: #a6a6ed;
+}
+
+body {
+	margin: 0;
+	font-family: "Goudy Bookletter", Georgia, serif;
+	color: #868784;
+}
+
+.homepage {
+	background-image: url("../images/queerpeople2.png");
+	background-color: #e6e6fa;
+}
+	
+.banner {
+	background-color: #d4f2d2;
+	padding: 2em;
+	border-right: 2px solid #34113f;
+	border-left: 2px solid #34113f;
+}
+
+.banner h1 {
+	margin: 0;
+	font-size: 30px;
+    font-weight: bold;
+	text-align: center;
+	color: #34113f;
+    text-shadow: 0.0625em 0.0625em #beb7df;
+}
+
+.primary-menu {
+	margin: 0.5em;
+}
+
+h1, h2, h3, h4 {
+	text-align: center;
+	color: #4b5267;
+}
+
+.maincontent {
+	padding: 2em;
+	border-left: 2px solid #34113f;
+}
+
+p.intro::first-letter {
+	color: #34113f;
+	font-size: 200%;
+}
+
+.sidebar {
+	padding: 1.5em;
+	border-right: 2px solid #34113f;
+}
+
+.site-footer0 {
+    position: relative;
+    top: 250px;
+}
+
+.site-footer {
+	min-height: 6em;
+	background-color: #d4f2d2;
+	border-right: 2px solid #34113f;
+	border-left: 2px solid #34113f;
+}
+
+.copyright {
+    text-align: center;
+    font-weight: bold;
+    color: #34113f;
+    padding-top: 35px;
+}
+
+.resources {
+	padding-left: 15px;
+}
+
+.pun {
+	padding: 0 50px;
+	font-style: italic;
+	text-align: center;
+}
+
+.social {
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 0;
+}
+
+.social:hover {
+    opacity: 0.7;
+}
+
+/* NAVIGATION MENU */
+
+.topnav ul {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 24px;
+    flex-wrap: wrap;
+}
+
+.topnav li {
+	list-style-type: none;
+	padding: 0;   
+}
+
+.topnav a {
+    background-color: #e6e6fa;
+    color: #56b8fb;
+    padding: 10px;
+    margin: 0;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.topnav a:hover, a:active {
+	background-color: #aa96e3;
+}
+
+.primary-menu ul {
+	display: flex;
+	justify-content: center;
+	margin: 0;
+	padding: 0;
+	flex-wrap: wrap;
+}
+
+.primary-menu li {
+	list-style-type: none;
+	padding: 0;
+}
+
+.primary-menu a {
+	background-color: #aba9bf;
+	color: #4b5267;
+	padding: 14px 25px;
+	margin: 0.2em;
+	font-size: 14px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+}
+
+.primary-menu a:hover, a:active {
+	background-color: #beb7df;
+}
+
+/* FLEXIBLE MEDIA */
+
+img, video {
+    max-width: 100%;
+    height: auto;
+}
+
+.media {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+}
+
+.media iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+iframe {
+    border: 0;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.google-slides-container {
+	position: relative;
+	width: 100%;
+	padding-top: 60%;
+	overflow: hidden;
+}
+
+.google-slides-container iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;	
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: auto;
+	border-radius: 50%;
+}
+
+.squareimg {
+	border-radius: 0;
+}
+
+/* FORM */
+
+form {
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+	align-items: center;
+	column-gap: .8em;
+	row-gap: 1.2em;
+}
+
+form > label {
+	grid-column: 1 / 2;
+}
+
+form > input, form > select, form > textarea {
+	grid-column: 2 / 3;
+	padding: .4em;
+}
+
+form > fieldset {
+	grid-column: 1 / 3;
+}
+ 
+textarea {
+	height: 8em;
+}
+
+input[type="submit"] {
+	grid-column: 1 / 3;
+}
+
+.form-default, .confirm-success, .confirm-error {
+	text-align: center;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+/* FORM TABLE */
+
+table {
+	border: 1px solid #000; 
+	border-collapse: collapse;
+	margin-left: auto;
+	margin-right: auto;
+}
+ 
+caption {
+	font-weight: bold;
+	color: #000;
+}
+  
+th {
+	background: #e6e6fa;
+	padding: 5px 4px;
+	text-shadow: 1px 1px #fff;
+	border-right: 1px solid #000;
+	border-bottom: 1px solid #000;
+	color:#000;
+}
+
+tr:nth-child(even) {
+	background: #f0fff0;
+}
+
+tr:nth-child(odd) {
+	background: #fff;
+}
+
+td { 
+	color: #747474;
+	padding: 6px;
+	border-right: 1px solid #000;
+	border-bottom: 1px solid #000;
+}
+
+tfoot td{
+	background: #e6e6fa;
+	text-shadow: 1px 1px #fff;
+	color:#555;
+	text-align: center;
+	font-size: .8em;
+	font-style: italic;
+}
+
+/* RESPONSIVE TABLES */
+
+@media (max-width: 600px) {
+		
+	table {
+		border: 0;
+		margin-right: auto;
+		margin-left: auto;
+	}
+	
+	thead {
+		display: none;
+	}
+	
+	tr {
+		border-bottom: 2px solid #c8c7c7;
+		display: block;
+	}
+	
+	td {
+		display: block;
+		text-align: right;
+		border: none;
+		border-bottom: 1px dotted #ccc;
+	}
+		
+	tfoot td {
+		background: none;
+	}
+	
+	td:last-child {
+		border-bottom: 0;
+	}
+	
+	td:before {
+		content: attr(data-header);
+		float: left;
+		font-weight: bold;
+		color:#333;
+		margin-right: .42em;
+	}
+		
+}
+
+/* DESKTOP LAYOUT */
+
+@media (min-width: 768px) {
+	
+	body {
+		font-size: 110%;
+        margin: 0;
+	}
+
+	.homepage {
+		background-image: url(../images/queerpeople2.png);
+	}
+
+	#wow0 {
+		font-size: 110%;
+        margin: 0 202px;
+	}
+
+	.color-change0 {
+		background-color: thistle;
+	}
+	
+	.color-change {
+		background-color: #34113f;
+	}
+
+	.content-wrapper {
+		max-width: 1400px;
+		margin: 0 auto;
+		display: grid;
+		grid-template-rows: auto auto minmax(6em,auto);
+		grid-template-columns: 2fr 1fr;
+		grid-template-areas: "banner banner" "main sidebar" "footer footer";
+	}
+
+	.home {
+        position: relative;
+        top: 150px;
+        left: 20px;
+    }
+
+    .topnav ul {
+        position: relative;
+        top: 350px;
+    }
+    
+    .topnav a {
+        padding: 15px;
+        font-weight: bold;
+    }
+
+	.banner {
+		grid-area: banner;
+		margin: 0 100px;
+	}
+
+	.maincontent {
+		grid-area: main;
+		margin: 0 0 0 100px;
+		background-color: #fff;
+	}
+
+	.sidebar {
+		grid-area: sidebar;
+		background-color: #e6e6fa;
+		margin: 0 100px 0 0;
+	}
+
+	form {
+		padding: 20px 50px;
+	}
+
+	.site-footer {
+		grid-area: footer;
+		margin: 0 100px;
+	}
+	
+	.site-footer0 {
+        position: relative;
+        top: 300px;
+    }
+	
+}

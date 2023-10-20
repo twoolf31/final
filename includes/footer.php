@@ -1,0 +1,1 @@
+<p class="copyright">&copy; 2022 Copywriters Anonymous, Inc.</p>

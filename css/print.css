@@ -1,0 +1,37 @@
+body {
+	font-family: George, "Times New Roman", Times, serif;
+}
+
+a::after {
+	content: " (" attr(href) ")";
+}
+
+a:not([href^="http"])::after {
+    content: " (https://40px.us/j8/final/" attr(href) ")";
+}
+
+.media::after {
+    content: " [Media URL: " attr(data-url) "]";
+}
+
+.google-slides-container::after {
+    content: " [Media URL: " attr(data-url) "]";
+}
+
+a[href^="#"], .media iframe, .google-slides-container iframe, nav, .no-print, img {
+    display: none;
+}
+      
+table, td, th {
+    border-collapse: collapse;
+    border: 1px solid #555;
+}
+
+.banner, main, .sidebar {
+    border-bottom: 1px dotted #555;
+}
+      
+.banner, .site-footer {
+    text-align: center;
+    font-style: italic;
+}

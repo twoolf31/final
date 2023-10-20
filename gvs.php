@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Gender v. Sexuality - Elementary</title>
+  <meta name="description" content="Here is a discussion of the differences between gender and sexuality that are especially important when considering the LGBTQIA+ community.">
+  <link rel="stylesheet" media="screen" href="css/style.css">
+  <link rel="stylesheet" media="print" href="css/print.css">
+</head>
+
+<body id="wow">
+
+    <script>
+        window.onscroll = function() {myFunction()};
+        
+        function myFunction() {
+          if (document.documentElement.scrollTop > 20) {
+            document.getElementById("wow").className = "color-change";
+          } else {
+            document.getElementById("wow").className = "";
+          }
+        }
+    </script>
+
+<div class="content-wrapper">
+
+  <header class="banner">
+  
+    <?php include('includes/banner.php');?>
+    
+  </header>
+
+<main class="maincontent">
+
+  <h2>The Rainbow Spectrum</h2>
+
+  <p class="intro">An important concept when learning about gender and sexuality--and all things in the LGBTQIA+ community--is that everything lies on a spectrum. Take the genderbread man below (courtesy of <a href="https://www.itspronouncedmetrosexual.com/2018/10/the-genderbread-person-v4/" target="_blank">It's Pronounced Metrosexual</a>) The brain determines one's gender identity, the heart determines one's attraction, the sex parts obviously determine one's anatomical sex, and the person as a whole determines one's expression.</p>
+
+  <p>In other terms, that means that a person chooses how they want to express themselves based upon the sexual, romantic, and/or platonic attractions that makes their heart go boom-boom, and the gender identity that fits with how their brain perceives themselves. As for biological sex, that's not necessarily as important since it is determined by chromosomes rather than identity, and the focus with the LGBTQIA+ community is identity regardless of biological sex.</p>
+
+  <img class="squareimg" src="images/genderbreadperson.jpg" alt="Left half of a gender study infographic depicting a gingerbread-type man with arrows to the brain for gender identity, the heart for gender orientation, the crotch area for biological sex, and the entire body for gender expression." width="447" height="578">
+
+  <p class="intro">Back to the spectrum bit! Below the genderbread man are five spectrum sections for gender identity, gender expression, anatomical sex, sexual attraction, and romantic attraction. For gender identity, there's a spectrum for 'female-ness' and a spectrum for 'male-ness' with the other ends of the spectrum being people with a lack of what the spectrum is for. This helps to account for individuals who do not fall on the standard gender binary, but who have a place on the gender identity spectrum wherever they'd like (even if it's not on the spectrum at all).
+
+  <p>So what's the difference between binary and spectrum? Well, a binary is strictly black and white (male and female), whereas a spectrum is technicolor and almost organic. This means that while non-binary individuals do not fit the black and white (and outdated) binary, there's room for them on the spectrum should they choose it. It's an important distinction when considering the differences between gender and sexuality.</p>
+
+</main>
+
+<aside class="sidebar">
+
+  <h2>Gender</h2>
+  
+    <p class="intro">While a person's sex is a predetermined factor in their genetic makeup, it does not necessarily determine a person's gender identity. This is because your gender identity is your own internal, personal sense of being as a man, woman, human, creature, etc. This is what you know in your brain to be who you are.</p>
+    <p>Gender is vast, and it's allowed to be! Identities include female, male, nonbinary, transgender, gender nonconforming, genderqueer, genderfluid, two spirit, etc. There are so many, and are indicative of the breadth of human identity that can be found and experiences on this melting pot of a world.</p>
+  
+  <h2>Sexuality</h2>
+  
+    <p class="intro">Sexuality is also vast, and ever-growing. It is also twofold. While sexuality used to be solely about sexual attraction, it has adapted and evolved to involve romantic and platonic attractions to accomodate those on the asexual and aromantic spectrums (the spectrums are all around you).</p>
+    <p>Attraction is no longer constricted to simply 'Tarzan like Jane' and 'Jane like Tarzan'. You have the demisexuals that do not develop sexual attraction unless romantic attraction has formed. You have the pansexuals that do not see gender when forming attractions, and you've got omnisexuals that form attractions to anyone of any gender.</p>
+    <p>Just remember what the genderbread person says: identity is not equal to expression is not equal to sex is not equal to gender is not equal to sexual orientation. We as humans are completely customizable when it comes to gender and sexuality, and everybody is unique and valid in their own choice of identities.</p>
+
+</aside>
+
+<footer class="site-footer">
+
+  <?php include('includes/footer.php');?>
+
+</footer>
+
+</div> <!--end of wrapper-->
+
+</body>
+</html>

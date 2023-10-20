@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pronouns - Elementary</title>
+  <meta name="description" content="Learn the purpose of personal pronouns for the LGBTQIA+ community, and the different types of personal pronouns and how to use them.">
+  <link rel="stylesheet" media="screen" href="css/style.css">
+  <link rel="stylesheet" media="print" href="css/print.css">
+</head>
+
+<body id="wow">
+
+    <script>
+        window.onscroll = function() {myFunction()};
+        
+        function myFunction() {
+          if (document.documentElement.scrollTop > 20) {
+            document.getElementById("wow").className = "color-change";
+          } else {
+            document.getElementById("wow").className = "";
+          }
+        }
+    </script>
+
+<div class="content-wrapper">
+
+<header class="banner">
+
+    <?php include('includes/banner.php');?>
+	
+</header>
+
+<main class="maincontent">
+
+  <img src="images/pronouns.png" alt="Diverse group of six individuals all wearing different colored tops with their preferred pronouns on them" width="400" height="283">
+
+  <h2>What's a Personal Pronoun?</h2>
+
+    <p class="intro">A personal pronoun is a short word that replaces a noun and refers to a specific person(s) or thing(s). They are typically used to avoid redundancy that occurs when using one noun repetitively, as well as safe space--especially when that noun is incredibly long. Can you imagine reading a biography on Hubert Blaine Wolfeschlegelsteinhausenbergerdorff Sr. without any personal pronouns? Yikes!</p>
+
+    <p>Personal pronouns are essential to the way we communicate with one another, and using someone's personal pronouns is a way to respect them and create an inclusive environment. It's just the same as how using a person's name can be a way to respect them. And "just as it can be offensive or even harassing to make up a nickname for someone and call them that nickname against their will, it can be offensive or harassing to guess at someone's pronouns and refer to them using those pronouns if that is not how that person wants to be known" (<a href="https://www.mypronouns.org/what-and-why" target="_blank">My Pronouns</a>).</p>
+
+  <h2>The Big Three</h2>
+  
+    <p class="intro">There are three sets of personal pronouns (and variants on them) that you'll come across quite often: <strong>she/her, he/him,</strong> and <strong>they/them</strong>. The first two are gendered, while the last set is gender-neutral, which typically means that individuals using those pronouns do not see themselves as strictly male or female. They might be two, none, all, or some other combination of pronouns (he/they, he/she/they, they/she, etc.). It is never rude to ask; only rude to assume!</p>
+
+<table class="pronouns">
+
+  <caption>An Easy Guide to Pronouns and Common Neopronouns</caption>
+
+  <thead>
+    <tr>
+      <th>Subject</th>
+      <th>Object</th>
+      <th>Possessive</th>
+      <th>Reflexive</th>
+      <th>Pronunciation</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr>
+      <td>she</td>
+      <td>her</td>
+      <td>hers</td>
+      <td>herself</td>
+      <td>shee, her, herz, herself</td>
+    </tr>
+    <tr>
+      <td>he</td>
+      <td>him</td>
+      <td>his</td>
+      <td>himself</td>
+      <td>hee, him, hiz, himself</td>
+    </tr>
+    <tr>
+      <td>they</td>
+      <td>them</td>
+      <td>theirs</td>
+      <td>themself</td>
+      <td>thay, them, therz, themself</td>
+    </tr>
+    <tr>
+      <td>xe</td>
+      <td>xem/xyr</td>
+      <td>xyrs</td>
+      <td>xemself</td>
+      <td>zhee, zhem/zher, zheres, zhemself</td>
+    </tr>
+    <tr>
+      <td>e</td>
+      <td>em/eir</td>
+      <td>eirs</td>
+      <td>eirself</td>
+      <td>ey, em/er, erz, erself</td>
+    </tr>
+    <tr>
+      <td>ze</td>
+      <td>hir</td>
+      <td>hirs</td>
+      <td>hirself</td>
+      <td>zhee, here, heres, hereself</td>
+    </tr>
+    <tr>
+      <td>fae</td>
+      <td>faer</td>
+      <td>faers</td>
+      <td>faerself</td>
+      <td>fay, fair, fairs, fairself</td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr>
+      <td colspan="5"><strong>TRY THEM ALL OUT IN THE FOLLOWING SENTENCE:</strong><br>
+        I think Sam has a wonderful personality. That smile of ____ really makes me happy. I could talk to ____ all day, although ____ doesn't talk about ____ much. I wonder if ____ day has been good.</td>
+    </tr>
+  </tfoot>
+</table>
+
+</main>
+
+<aside class="sidebar">
+
+	<h3>Extra, Extra: More Neopronouns</h3>
+
+    <p class="intro">Every identity is valid, and a person's pronouns are theirs to choose—no matter how strange they may seem to you. Because while any pronouns other than he/him, she/her, and they/them are considered neopronouns, there are far more possibilities out there than you could even imagine. There are animal-type ones like pup/pups/pupself or bun/buns/bunself; there are tech-type ones like bot/bots/botself or droid/droids/droidself; and there are even spooky-type ones like voi/void/voidself or gho/ghos/ghostself. In the end, it doesn't matter what someone chooses as their pronouns because it's their choice and ours to respect.</p>
+    
+    <h4>Hungry for even more neopronouns?</h4>
+
+    <a href="https://neopronounlist.carrd.co/" target="_blank">Check out this ultimate list of exciting and unique neopronouns!</a><br><br>
+
+    <img src="images/justask.jpg" alt="Jean jacket with pin on it that says 'ask me about my pronouns'" width="350" height="350">
+
+</aside>
+
+<footer class="site-footer">
+
+    <?php include('includes/footer.php');?>
+
+</footer>
+
+</div> <!--end of wrapper-->
+
+</body>
+</html>
