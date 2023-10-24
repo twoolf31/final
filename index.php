@@ -30,7 +30,7 @@
 
     <footer class="site-footer0">
 
-     <!-- <?php include('includes/footer.php');?> -->
+     <?php include('includes/footer.php');?>
 
     </footer>
 
