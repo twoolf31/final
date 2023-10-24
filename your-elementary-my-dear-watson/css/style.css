@@ -21,6 +21,8 @@ body {
 .homepage {
 	background-image: url("../images/queerpeople2.png");
 	background-color: #e6e6fa;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 	
 .banner {
