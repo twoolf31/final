@@ -22,6 +22,13 @@ body {
 	background-color: #e6e6fa;
     background-repeat: no-repeat;
     background-position: center;
+    height: 100vh;
+    overflow-y: auto;
+}
+
+.hpcontent {
+    height: 60vh;
+    margin-top: 15vh;
 }
 	
 .banner {
@@ -69,6 +76,10 @@ p.intro::first-letter {
     top: 250px;
 }
 
+.site-footerhp {
+    top: 0px;
+}
+
 .site-footer {
 	min-height: 6em;
 	background-color: #d4f2d2;
@@ -81,6 +92,10 @@ p.intro::first-letter {
     font-weight: bold;
     color: #34113f;
     padding-top: 35px;
+}
+
+.hpcontent .copyright {
+    padding-top: 0px;
 }
 
 .resources {
@@ -382,13 +397,13 @@ tfoot td{
 
 	.home {
         position: relative;
-        top: 150px;
         left: 20px;
     }
 
     .topnav ul {
         position: relative;
-        top: 350px;
+        padding-top: 0px;
+        padding-bottom: 0px;
     }
     
     .topnav a {
