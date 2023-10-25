@@ -19,7 +19,6 @@ body {
 }
 
 .homepage {
-	background-image: url("../images/queerpeople2.png");
 	background-color: #e6e6fa;
     background-repeat: no-repeat;
     background-position: center;
@@ -358,9 +357,6 @@ tfoot td{
         margin: 0;
 	}
 
-	.homepage {
-		background-image: url(../images/queerpeople2.png);
-	}
 
 	#wow0 {
 		font-size: 110%;
